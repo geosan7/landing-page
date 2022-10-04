@@ -1,12 +1,15 @@
 body {
-    background-color: #1f2937;
-    padding-left: 10%;
-    padding-right: 10%;
     display: flex;
-    flex-direction: column;}
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
 .header {
+    background-color: #1f2937;
     display: flex;
+    padding: 1% 10%;
     justify-content: space-between;
 }
 
@@ -29,19 +32,38 @@ a {
     color: #f9faf8;
 }
 
+.main {
+    width: 600px;
+    height: 300px;
+    margin: 30px
+}
+
+.rimages {
+    border-style: solid;
+    border: #3882f6;
+    border-width: 2px;
+    width: 200px;
+    height: 200px;
+}
+
 .awesome {
+    background-color: #1f2937;
     display: flex;
+    padding: 5% 10%;
 }
 
 .awesome-header {
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .awesome-text {
     display: flex;
     flex-direction: column;
     font-weight: normal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 P {
@@ -52,20 +74,45 @@ P {
 .random {
     background-color: #f9faf8;
     display: flex;
-    flex-direction: column;
+    padding: 5% 10%;
     justify-content: center;
     align-content: center;
+    text-align: center;
+}
+
+.random-heading {
+
 }
 
 .action-container {
     background-color: #f9faf8;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .quote-container {
     background-color: #e5e7eb;
+    padding: 5% 10%;
+}
+
+.quote {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.signature {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: end;
+    font-size: 18px;
 }
 
 .footer {
+    background-color: #1f2937;
+    padding: 2%;
+    text-align: center;
     color: #f9faf8;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
